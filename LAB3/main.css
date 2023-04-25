@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+.titleBar {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+  
+.titleText1 {
+    position: absolute;
+    text-align: right;
+    transform: translateX(-250px);
+    color: white;
+    font-family: 'LINESeedKR-Bd', normal;
+}
+  
+.titleText2 {
+    position: absolute;
+    text-align: left;
+    transform: translateX(+230px);
+    color: white;
+    font-family: 'LINESeedKR-Bd', normal;
+}
+
+.menuBorderTop {
+    border-top: 1px solid black;
+    border-right: none;
+    border-bottom: 1px dashed black;
+    border-left: none;
+    width: 1000px;
+    height: 4px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.gotoMain{
+    position: absolute;
+    transform: translate(-480px,15px);
+    text-align: left;
+    color: black;
+    font-family: 'LINESeedKR-Bd', normal;
+}
+
+.gotoLogin{
+    position: absolute;
+    transform: translate(400px,15px);
+    text-align: left;
+    color: black;
+    font-family: 'LINESeedKR-Bd', normal;
+}
+
+.gotoSignup{
+    position: absolute;
+    transform: translate(470px,15px);
+    text-align: left;
+    color: black;
+    font-family: 'LINESeedKR-Bd', normal;
+}
+
+.menuBorderBottom {
+    border-top: 1px dashed black;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+    width: 1000px;
+    height: 4px;
+    margin: auto;
+    margin-top: 10px;
+}
